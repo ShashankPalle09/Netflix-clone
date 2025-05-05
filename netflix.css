@@ -1,0 +1,260 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial,sans-serif;
+    color: white;
+}
+.firstpage{
+    height: 900px;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("header-image.png");
+    background-size:contain;
+    background-position: center;
+    padding: 20px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+}
+.signin{
+    background: #db0001;
+    color: #fff;
+    border-radius:5px;
+    font-size: 18px;
+    font-weight:900;
+    margin-left: 20px;
+    cursor: pointer;
+    height: 45px;
+    width: 100px;
+    padding: 4px;
+    
+}
+.lan-btn img{
+    height:6px;
+    margin-left:5px;
+}
+.lan-btn{
+    font-weight: 400;
+    background: none;
+    width: 150px;
+    height: 45px;
+    border: 0.1px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    
+}
+
+.bottomsection{
+    height: 600px;
+    color: aliceblue;
+    margin: 150px;
+    text-align: center;
+    align-items: center;
+    padding: 0px 30px 30px 30px;
+    align-self: center;
+}
+.bottomsection h1{
+    margin-bottom: 10px;
+    font-size:60px;
+    line-height: 80px;
+    font-weight:800;
+}
+.bottomsection p{
+
+    font-weight: 700;
+    margin-bottom: 24px;
+    font-size: 30px;
+}
+.bottomsection h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica;
+    line-height: 40px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+.bottomsection button{
+    height: 77px;
+    width:200px;
+    background-color: #db0001;
+    font-weight:400;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 20px;
+}
+.bottomsection input{
+    height: 56px;
+    width: 400px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    font-size:20px;
+    font-weight: 400;
+    padding: 10px;
+    background: none;
+    border: 1px solid white;
+
+}
+.totalsec{
+    margin: 0;
+    background-color:rgb(132, 131, 131);
+}
+.content{
+    background: rgb(132, 131, 131);
+
+}
+.fir-content{
+    padding: 100px 8%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 5px solid rgb(69, 67, 67);
+    
+}
+.text_col{
+    width: 50%;
+    font-size: 20px;
+    flex-wrap: wrap;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+}
+.img-col {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    z-index: 3;
+
+}
+.text_col h2{
+    margin-bottom:1rem;
+    font-size: 50px;
+}
+
+.faq{
+    background-color: black;
+    padding: 100px 8%;
+    border-top: 5px solid rgb(69, 67, 67);
+}
+.faq p{
+    border: 2px solid transparent;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ;
+    background-color: rgba(128, 124, 124, 0.92);
+    height: 100px;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px;
+}
+.faq p::after{
+    content: '+';
+    font-size:35px ;
+    position: absolute;
+    right:350px;
+}
+.faq h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.second-sign{
+    background-color: black;
+    color: white;
+    /* width: 100%; */
+    padding: 30px;
+    padding-left: 200px;
+}
+
+.last-sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-sign input{
+    height: 56px;
+    width:800px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    font-size:30px;
+    padding: 10px;
+    background-color: black;
+    border: 0.3px solid white;
+}
+video
+{
+    height: 320px;
+    position:relative;
+    align-self: center;
+    z-index: 1;
+    top: -20px;
+    left: -600px;
+}
+
+
+.image1
+{
+    z-index: 3;
+}
+.second-sign button{
+    background: #db0001;
+    color: #fff;
+    border-radius:5px;
+    font-size: 28px;
+    font-weight:900px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    height: 78px;
+    width: 300px;
+    padding: 10px;
+}
+.second-sign h3{
+    text-align: center;
+}
+.final{
+    background-color: black;
+    height: 300px;
+    padding: 100px 8%;
+}
+.final p{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+.anchortags{
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.anchor11 a{
+    line-height:50px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0.125rem;
+    font-size: 20px;
+
+}
+.anchor11{
+    margin-right:260px;
+}
+.btn2{
+    margin-top: 50px;
+}
